@@ -1,4 +1,6 @@
 numpy==1.25.0
 numpy==1.24.3
 streamlit==1.28.2
-pip==22.0.3
+scikit_learn==1.2.2
+
+
