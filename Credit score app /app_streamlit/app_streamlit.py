@@ -43,3 +43,5 @@ if st.button("Predict"):
     #resultat= " Le score de credit est: ",prediction[0] 
     
     st.success(resultat)
+
+    
