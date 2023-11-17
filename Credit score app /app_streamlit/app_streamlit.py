@@ -2,6 +2,9 @@ import streamlit as st
 import numpy as np 
 import pickle
 
+ 
+
+from sklearn.model_selection import train_test_split, GridSearchCV
 st.title("Prédiction de la cote de crédit à partir des informations relatives de personnes ")
 st.subheader("Application réalisée par Ouiza MEBARKI")
 
