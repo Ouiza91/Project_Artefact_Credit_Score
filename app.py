@@ -3,33 +3,7 @@ import numpy as np
 import pickle
 import pandas as pd 
 
-import matplotlib.pyplot as plt
-import seaborn as sns 
 
-
-from sklearn.svm import SVC
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.ensemble import AdaBoostClassifier
-from xgboost import XGBClassifier
-
-from sklearn.utils import resample
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import (
-    f1_score,
-    accuracy_score,
-    recall_score,
-    precision_score,
-    confusion_matrix,
-    classification_report,
-)
-
-from sklearn.model_selection import train_test_split, GridSearchCV
- 
-
-from sklearn.model_selection import train_test_split, GridSearchCV
 st.title("Prédiction de la cote de crédit à partir des informations relatives de personnes ")
 st.subheader("Application réalisée par Ouiza MEBARKI")
 
