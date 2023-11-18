@@ -4,7 +4,7 @@ import pickle
 import pandas as pd 
 
 
-st.title("Prédiction de la cote de crédit à partir des informations relatives de personnes ")
+st.title("Prédiction de score de crédit")
 st.subheader("Application réalisée par Ouiza MEBARKI")
 
 # Chargement du model 
